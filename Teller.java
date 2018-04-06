@@ -11,6 +11,8 @@ public class Teller implements Comparable<Teller> {
 	private long tempIdleTime; // temp variable used to calculate the amount of time a teller has been idle
 	private int customersHelped; // The total number of customers that have been helped
 
+	//mat has a face is
+
 	public Teller() {
 		tellerEventQueue = new LinkedList<Event>(); // create a new empty queue to hold the events the teller is waiting
 													// in
@@ -36,7 +38,7 @@ public class Teller implements Comparable<Teller> {
 	//////////// Accessors and mutators/////////
 	/**
 	 * tellerEventQueue accessor
-	 * 
+	 *
 	 * @return tellerEventQueue
 	 */
 	public Queue<Event> getTellerEventQueue() {
@@ -45,7 +47,7 @@ public class Teller implements Comparable<Teller> {
 
 	/**
 	 * currentEvent accessor
-	 * 
+	 *
 	 * @return currentEvent
 	 */
 	public Event getCurrentEvent() {
@@ -54,7 +56,7 @@ public class Teller implements Comparable<Teller> {
 
 	/**
 	 * currentEvent mutator
-	 * 
+	 *
 	 * @param currentEvent
 	 */
 	public void setCurrentEvent(Event currentEvent) {
@@ -63,7 +65,7 @@ public class Teller implements Comparable<Teller> {
 
 	/**
 	 * idleTime accessor
-	 * 
+	 *
 	 * @return idleTime
 	 */
 	public long getIdleTime() {
@@ -72,7 +74,7 @@ public class Teller implements Comparable<Teller> {
 
 	/**
 	 * idleTime mutator
-	 * 
+	 *
 	 * @param idleTime
 	 */
 	public void setIdleTime(long totalIdleTime) {
@@ -81,7 +83,7 @@ public class Teller implements Comparable<Teller> {
 
 	/**
 	 * tempIdleTime accessor
-	 * 
+	 *
 	 * @return tempIdleTime
 	 */
 	public long getTempIdleTime() {
@@ -90,7 +92,7 @@ public class Teller implements Comparable<Teller> {
 
 	/**
 	 * tempIdleTime mutator
-	 * 
+	 *
 	 * @param idleTime
 	 */
 	public void setTempIdleTime(long tempIdleTime) {
